@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8" />
+    <title>console.log　テンプレートリテラル</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="VideoPlaylistWithSlider-wrapper">
+        <div class="container">
+            <div class="heading">
+                <h2>Best in Travel 2020</h2>
+            </div>
+            <div class="VideoPlaylist">
+                <div class="Player">
+                    <div class="video"><img src="image/player-thum-big.png" alt="Why you should visit Bhutan in 2020"></div>
+                    <h3>Why you should visit Bhutan in 2020</h3>
+                    <ul class="tool">
+                        <li><img src="image/Upload.svg" alt="Upload"></li>
+                        <li><img src="image/Volume.svg" alt="Volume"></li>
+                        <li><img src="image/View.svg" alt="View"></li>
+                    </ul>
+                    <ul class="playTool">
+                        <li><img src="image/IconPlay.svg" alt="Play"></li>
+                        <li><img src="image/IconRewind.svg" alt="Rewind"></li>
+                    </ul>
+                    <p class="time">0:16 / 1:35</p>
+                </div>
+                <div class="Playlist">
+                    <div class="ListItem first">
+                        <div class="cover"><img src="image/video-thum01.png" alt="Why you should visit Bhutan in 2020"></div>
+                        <div class="caption">
+                            <p class="title">Why you should visit Bhutan in 2020</p>
+                            <p class="time">1:29</p>
+                        </div>
+                    </div>
+                    <div class="ListItem">
+                        <div class="cover"><img src="image/video-thum02.png" alt="Why you should visit East Nusa Tenggara in 2020"></div>
+                        <div class="caption">
+                            <p class="title">Why you should visit East Nusa Tenggara...</p>
+                            <p class="time">5:41</p>
+                        </div>
+                    </div>
+                    <div class="ListItem">
+                        <div class="cover"><img src="image/video-thum03.png" alt="Why you should visit the Central Asian Silk Road..."></div>
+                        <div class="caption">
+                            <p class="title">Why you should visit the Central Asian...</p>
+                            <p class="time">5:39</p>
+                        </div>
+                    </div>
+                    <div class="ListItem">
+                        <div class="cover"><img src="image/video-thum04.png" alt="Why you should visit Salzburg in 2020"></div>
+                        <div class="caption">
+                            <p class="title">Why you should visit Salzburg in 2020</p>
+                            <p class="time">5:29</p>
+                        </div>
+                    </div>
+                    <div class="ListItem">
+                        <div class="cover"><img src="image/video-thum05.png" alt="Top 10 countries to visit in 2020"></div>
+                        <div class="caption">
+                            <p class="title">Top 10 countries to visit in 2020</p>
+                            <p class="time">2:41</p>
+                        </div>
+                    </div>
+                    <div class="ListItem">
+                        <div class="cover"><img src="image/video-thum06.png" alt="Top 10 cities to visit in 2020"></div>
+                        <div class="caption">
+                            <p class="title">Top 10 cities to visit in 2020</p>
+                            <p class="time">2:51</p>
+                        </div>
+                    </div>
+                    <div class="ListItem last">
+                        <div class="cover"><img src="image/video-thum07.png" alt="Top 10 regions to visit in 2020"></div>
+                        <div class="caption">
+                            <p class="title">Top 10 regions to visit in 2020</p>
+                            <p class="time">2:53</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const year = "2020";
+        const why = "Why you should visit";
+        const rank = "Top 10";
+        const name = "Lonely Planet";
+        console.log (`Best in Travel ${year}`);
+        console.log (`Why you should visit Bhutan in ${year}`);
+        console.log (`Why you should visit East Nusa Tenggara in ${year}`);
+        console.log (`Why you should visit Salzburg in ${year}`);
+        console.log (`Top 10 countries to visit in ${year}`);
+        console.log (`Top 10 cities to visit in ${year}`);
+        console.log (`Top 10 regions to visit in ${year}`);
+        console.log (`${why} Bhutan in ${year}`);
+        console.log (`${why} East Nusa Tenggara in ${year}`);
+        console.log (`${why} the Central Asian Silk Road in ${year}`);
+        console.log (`${why} Salzburg in ${year}`);
+        console.log (`${rank} countries to visit in ${year}`);
+        console.log (`${rank} cities to visit in ${year}`);
+        console.log (`${rank} regions to visit in ${year}`);
+        console.log (`Search ${name}`);
+        console.log (`${name} Kids`);
+    </script>
+
+
+</body>
+</html>
+
+
+
+
+
